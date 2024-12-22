@@ -1,0 +1,160 @@
+main {
+    z-index: 0;
+    width: 100%;
+    min-height: 100vh;
+    /* height: calc(100vh - 5rem); */
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    justify-content: center;
+    background-position: bottom;
+}
+/* HERO SECTION */
+.main-hero {
+    z-index: 500;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://cdn.prod.website-files.com/6408a31d539dcd1879171bbb/6408a31d539dcd707d171c24_amelia-aesthetics-home-hero.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-hero-overlay {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, #00395299 48%, #00395233);
+    justify-content: center;
+}
+.main-hero-text {
+    z-index: 1;
+    width: 80%;
+    position: absolute;
+    color: white;
+    justify-content: space-between;
+}
+.h2-hero {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.h1-hero {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.text-size-medium-hero {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.main-hero-text-buttons {
+    width: 25%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    column-gap: 1rem;
+}
+.button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #003952;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* GALLERY SECTION */
+.index-gallery {
+    width: 100%;
+    background-color: white;
+}
+.index-gallery-component {
+    width: 100%;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.index-gallery-component-text-box {
+    /* background-color: red; */
+}
+.h2-gallery {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--site-color-01);
+}
+.text-size-medium-gallery {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+.index-gallery-component-img-box {
+    padding: 2rem 0 0 0;
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    column-gap: 2rem;
+}
+.index-gallery-component-img-box:nth-child(3) {
+    padding-bottom: 4rem;
+    /* background-color: aquamarine; */
+}
+.index-gallery-component-img-box img {
+    width: 25%;
+    border-radius: 1rem;
+}
+/* PROCEDURES SECTION */
+.index-procedures {
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+.index-procedures-component {
+    /* background-color: blue; */
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    align-self: center;
+}
+.index-procedures-component-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.index-procedures-component-text-box {
+    align-items: flex-start;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.index-procedures-component-img-box {
+    display: flex;
+}
+.index-procedures-component-img-box img{
+    border-radius: 1rem;
+    display: flex;
+}
+.h2-procedures {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--site-color-01);
+}
+.text-size-medium-procedures {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+.text-size-small-procedures {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
