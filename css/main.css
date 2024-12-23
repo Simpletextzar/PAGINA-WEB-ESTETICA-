@@ -1,7 +1,9 @@
 :root {
     --site-color-01: #25a3d9;
 }
-
+div {
+    display: block;
+}
 body {
     background-color: #1e1e1e;
     font-family: 'Outfit', sans-serif;
