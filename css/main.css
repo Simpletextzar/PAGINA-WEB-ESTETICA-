@@ -1,11 +1,15 @@
 :root {
     --site-color-01: #25a3d9;
 }
+* {
+    box-sizing: border-box;
+}
 div {
     display: block;
 }
 body {
     background-color: #1e1e1e;
+    color: #333;
     font-family: 'Outfit', sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -19,7 +23,9 @@ body:after {
     z-index: -1;
     content: url(../img/estetica_facial2.jpg);
 }
-
+h3 {
+    font-weight: 700;
+}
 .header-main {
     z-index: 1000;
     position: fixed;
@@ -152,3 +158,18 @@ body:after {
 .image:hover {
     background-image: url(../img/estetica_facial2.jpg);
 } */
+.container-large {
+    width: 90%;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.section-large {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    position: relative;
+}
+.background-color-primary {
+    background-color: var(--site-color-01);
+}
