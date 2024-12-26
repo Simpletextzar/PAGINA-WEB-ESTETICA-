@@ -4,6 +4,10 @@
 * {
     box-sizing: border-box;
 }
+iframe{
+    display: block;
+    margin: auto;
+}
 div {
     display: block;
 }
