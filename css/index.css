@@ -135,8 +135,9 @@ h4 {
 /* PROCEDURES SECTION */
 .index-procedures {
     width: 100%;
-    background-color: grey;
+    background-color: #f3f6f7;
     padding-top: 5rem;
+    padding-bottom: 5rem;
     display: flex;
     justify-content: center;
 }
@@ -242,6 +243,35 @@ h4 {
 .personnel-button {
     max-width: 20rem;
     margin-top: 1rem;
+}
+.personnel-component_image-grid {
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin-top: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+.personnel-component_image-grid img {
+    border-radius: 2rem;
+}
+.personnel-node_link {
+    cursor: pointer;
+}
+/* MAP SECTION */
+.index-map {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.map-component_text {
+    padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.map-component_map{
+    
+    /* background-color: red; */
 }
 /* FOOTER */
 .footer-component {
