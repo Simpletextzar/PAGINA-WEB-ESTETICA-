@@ -33,6 +33,7 @@ main {
 }
 .header-text-large {
     font-size: 2.4rem;
+    font-weight: 600;
 }
 .header-text-small {
     font-size: 1rem;
@@ -61,4 +62,10 @@ main {
 .gallery-body-header {
     padding-top: 10rem;
     padding-bottom: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .body-img-grid {
+        grid-template-columns: 1fr;
+    }
 }
