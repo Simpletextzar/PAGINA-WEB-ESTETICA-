@@ -1,0 +1,51 @@
+.container{
+    border-color: black;
+    border-style: dotted;
+    background-color:  aqua;
+    display: flex;
+    padding: 0rem 3rem;
+}
+
+section.container h1{
+    font-size: 3rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+section.container p{
+    font-size: 1.2rem;
+}
+
+section.container div.image-content{
+    align-content: center;
+    padding: 2rem 2rem;
+    max-height: 100%;
+    min-block-size: 50%;
+}
+
+section.container.Right div.text-content {
+    max-width: 60%;
+    padding: 4rem 2rem 2rem ;
+}
+
+section.container.Left div.text-content {
+    text-align: right;
+    max-width: 60%;
+    padding: 4rem 2rem 2rem ;
+}
+
+
+section.location{
+    text-align: center;
+    background-color: aquamarine;
+    padding:5rem 5rem;
+}
+
+section.location h1{
+    font-size: 4rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
