@@ -62,9 +62,15 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 .personal-body-header {
     padding-top: 10rem;
     padding-bottom: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .body-img-grid {
+        grid-template-columns: 1fr;
+    }
 }
