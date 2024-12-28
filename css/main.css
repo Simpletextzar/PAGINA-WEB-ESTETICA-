@@ -274,6 +274,15 @@ h3 {
 .logo_link {
     cursor: pointer;
 }
+.wsp-button {
+    width: 50px;
+    height: 50px;
+    z-index: 30000;
+    right: 2rem;
+    bottom: 2rem;
+    position: fixed;
+    cursor: pointer;
+}
 /* MEDIA QUERIES */
 @media only screen and (max-width: 991px) {
     .burger-menu-button {
