@@ -1,6 +1,6 @@
 
 .container{
-    background-color:  rgb(244, 248, 255);
+    background-color: #f3f6f7;
     display: flex;
     padding: 3rem 3rem 0rem;
 }
@@ -110,4 +110,26 @@ h1{
     font-size: 0.8rem; 
     color: rgb(102, 102, 202);
     text-transform: uppercase;
+}
+
+/* MAP SECTION */
+.index-map {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.map-component_text {
+    padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.header-style-h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+h2 {
+    font-size: 2rem;
 }
