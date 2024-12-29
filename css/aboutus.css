@@ -111,3 +111,22 @@ h1{
     color: rgb(102, 102, 202);
     text-transform: uppercase;
 }
+
+/* MAP SECTION */
+.index-map {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.map-component_text {
+    padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.header-style-h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
