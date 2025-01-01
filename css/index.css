@@ -77,18 +77,6 @@ h4 {
     display: flex;
     column-gap: 1rem;
 }
-.button {
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
-    background-color: #003952;
-    color: white;
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.5;
-    text-align: center;
-    cursor: pointer;
-}
-
 /* GALLERY SECTION */
 .index-gallery {
     width: 100%;
@@ -154,7 +142,6 @@ h4 {
     grid-row-gap: 2rem;
     display: flex;
     position: relative;
-    
 }
 .index-procedures-component_top {
     display: grid;
@@ -239,9 +226,6 @@ h4 {
     flex-direction: column;
     display: flex;
 }
-.personnel-component_text p {
-    
-}
 .personnel-button {
     max-width: 20rem;
     margin-top: 1rem;
@@ -271,12 +255,6 @@ h4 {
     flex-direction: column;
     display: flex;
 }
-.map-component_map{
-    
-    /* background-color: red; */
-}
-
-
 @media only screen and (max-width: 991px) {
     .index-procedures-component {
         padding: 2rem;

@@ -1,4 +1,15 @@
-
+.heading-style-h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--site-color-01);
+}
+.heading-style-business-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--site-color-01);
+}
 .procedures-item-container {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -51,8 +62,233 @@
     border-radius: .2rem;
     display: flex;
 }
+.text-container {
+    max-width: 50rem;
+    /* margin-left: auto;
+    margin-right: auto; */
+    flex-direction: column;
+    display: flex;
+}
+.section-large {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+/* ---- HERO SECTION ----*/
+.main-hero {
+    z-index: 500;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://cdn.prod.website-files.com/6408a31d539dcd1879171bbb/6408a31d539dcd707d171c24_amelia-aesthetics-home-hero.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.main-hero-overlay {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, #00395299 48%, #00395233);
+    justify-content: center;
+}
+.main-hero-text {
+    z-index: 1;
+    width: 80%;
+    position: absolute;
+    color: white;
+    justify-content: space-between;
+}
+.h2-hero {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.h1-hero {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.text-size-medium-hero {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.main-hero-text-buttons {
+    width: 25%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    column-gap: 1rem;
+}
+/* ---- PROCEDURES BENEFITS SECTION ---- */
+.procedures-benefits {
+    width: 100%;
+    background-color: #f3f6f7;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+    display: flex;
+}
+.procedures-benefits-component {
+    /* background-color: blue; */
+    width: 90%;
+    max-width: 80rem;
+    background-color: white;
+    padding: 4rem;
+    border-radius: 2rem;
+    flex-direction: column;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    position: relative;
+    display: flex;
+}
+/* -- PROCEDURES BENEFITS TOP -- */
+.procedures-benefits-component_top {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    display: grid;
+}
+.procedures-benefits-component-text-box {
+    align-items: flex-start;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+.procedures-benefits-component-img-box {
+    justify-content: left;
+    justify-items: left;
+    justify-self: left;
+    display: flex;
+}
+.procedures-benefits-component-img-box img{
+    border-radius: 1rem;
+    justify-self: left;
+    display: flex;
+}
+/* -- PROCEDURES BENEFITS BOTTOM -- */
+.procedures-benefits-component_bottom {
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-columns: 1fr;
+    margin-top: 2rem;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+.benefits-card-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    display: grid;
+}
+.benefits-card {
+    background-color: #dceef5;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    border: 1px solid #a0a0a0;
+    border-radius: 2rem;
+    padding: 1.5rem 1rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;  
+}
+.benefits-card_content {
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    row-gap: .5rem;
+    display: flex;
+}
+.benefits-card_content_title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--site-color-01);
+}
+.benefits-card_content_p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+/* ---- GALLERY SECTION ---- */
+.procedures-gallery {
+    width: 100%;
+    background-color: #f3f6f7;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.procedures-gallery-component {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.procedures-gallery-component-text-box {
+    padding: 0 2rem;
+    text-align: center;
+}
+.procedures-gallery-component-img-box {
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 2rem 4rem;
+    /* background-color: blue; */
+    overflow: hidden;
+    justify-content: center;
+    display: grid;
+}
+.procedures-gallery-component-img-box img {
+    border-radius: 1rem;
+}
+.h2-gallery {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--site-color-01);
+}
+.text-size-medium-gallery {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+/* ---- MAP SECTION ---- */
+.procedures-map {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.map-component_text {
+    padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
 @media only screen and (max-width: 991px) {
     .procedures-item-grid {
         grid-template-columns: 1fr;
+    }
+    .benefits-card-grid {
+        grid-template-columns: 1fr;
+    }
+    .procedures-benefits-component_top {
+        grid-template-columns: 1fr;
+    }
+    .procedures-gallery-component-img-box {
+        grid-template-columns: 1fr;
+    }
+    .map-component_map iframe {
+        width: 100%;
+        height: 20rem;
     }
 }
