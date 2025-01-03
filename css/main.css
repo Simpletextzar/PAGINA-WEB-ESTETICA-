@@ -363,9 +363,9 @@ h3 {
 }
 /* MEDIA QUERIES */
 @media only screen and (max-width: 991px) {
-    .header-main {
+    /* .header-main {
         position: fixed;
-    }
+    } */
     .burger-menu-button {
         display: block;
         cursor: pointer;
