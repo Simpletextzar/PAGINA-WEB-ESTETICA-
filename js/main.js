@@ -16,12 +16,12 @@ function enableScroll() {
 // window.onscroll = () => {
 //     console.log(window.scrollY);
 // }
-window.addEventListener("scroll", (e) => {
-    console.log(window.scrollY);
-})
-window.addEventListener("keydown", (event) => {
-    window.scrollTo(0, 1000);
-});
+// window.addEventListener("scroll", (e) => {
+//     console.log(window.scrollY);
+// })
+// window.addEventListener("keydown", (event) => {
+//     window.scrollTo(0, 1000);
+// });
 
 burgerBtn.onclick = function() {
     if (!isBurgerOpen) {
