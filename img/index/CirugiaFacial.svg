@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        opacity: .99;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #22a6e0;
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="134.74" y="107.08" width="116.82" height="379.18"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-2" x="251.56" y="107.08" width="116.82" height="379.18"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-2" x="124.94" y="239.68" width="18.24" height="40.96"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-2" x="360.17" y="239.68" width="18.24" height="40.96"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g id="_Mirror_Repeat_" data-name="&amp;lt;Mirror Repeat&amp;gt;" class="cls-6">
+      <g class="cls-7">
+        <path class="cls-3" d="M254.64,396.27c6.42-1.9-26.84-.24-59.4-27.29-13.52-11.24-27.22-26.53-38.5-47.33-39.9-73.52-2.85-163.02-2.85-163.03,14.73-31.82,56.87-47.58,96.11-47.98,20.8-.48,28.41,1.9,28.41,1.9"/>
+        <path class="cls-3" d="M195.25,368.98s2.37,80.04-30.42,113.78"/>
+      </g>
+    </g>
+    <g id="_Mirror_Repeat_-2" data-name="&amp;lt;Mirror Repeat&amp;gt;" class="cls-6">
+      <g class="cls-5">
+        <path class="cls-3" d="M248.48,396.27c-6.42-1.9,26.84-.24,59.4-27.29,13.52-11.24,27.22-26.53,38.5-47.33,39.9-73.52,2.85-163.02,2.85-163.03-14.73-31.82-56.87-47.58-96.11-47.98-20.8-.48-28.41,1.9-28.41,1.9"/>
+        <path class="cls-3" d="M307.88,368.98s-2.37,80.04,30.42,113.78"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g id="_Mirror_Repeat_-3" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+      <g class="cls-1">
+        <path class="cls-4" d="M138.92,242.29c-14.73,13.23-13.94,25.03,2.38,35.41"/>
+      </g>
+    </g>
+    <g id="_Mirror_Repeat_-4" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+      <g class="cls-8">
+        <path class="cls-4" d="M364.42,242.29c14.73,13.23,13.94,25.03-2.38,35.41"/>
+      </g>
+    </g>
+  </g>
+  <path class="cls-3" d="M364.66,230.29C455.67,18.92,42.21,3.24,138.33,238.13"/>
+  <path class="cls-3" d="M220.63,69c12.32-17.06,24.64-22.74,36.96-17.05,6.22,2.87,12.45,8.65,18.67,17.33"/>
+  <path class="cls-3" d="M255.24,49.81c42.06-46.57,107.29-42.3,145.78,9.73,39.21,75.22-32.63,159.69,34.93,197.48-30.25,1.8-53.79-8.89-67.56-37.78"/>
+</svg>
