@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cbe7f2;
+        stroke: #cbe7f2;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 7px;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-4, .cls-2 {
+        fill: none;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        stroke: #329dd2;
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-5);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-4" x="44.65" y="19.7" width="57.46" height="458.25"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-4" x="397.68" y="19.7" width="57.46" height="458.25"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-4" x="51.97" y="86.71" width="173.61" height="231.66"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-4" x="275.62" y="86.71" width="173.61" height="231.66"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-4" x="103.82" y="235.94" width="45.73" height="45.73"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-4" x="352.13" y="235.94" width="45.73" height="45.73"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g id="_Mirror_Repeat_" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+      <g class="cls-7">
+        <path class="cls-2" d="M98.61,308.12c-1.61,55.88-7.61,110.88-16.95,166.32"/>
+        <path class="cls-2" d="M48.15,23.2c16.85,39.8,29.85,81.8,38,125.18"/>
+      </g>
+    </g>
+    <g id="_Mirror_Repeat_-2" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+      <g class="cls-5">
+        <path class="cls-2" d="M401.18,308.12c1.61,55.88,7.61,110.88,16.95,166.32"/>
+        <path class="cls-2" d="M451.63,23.2c-16.85,39.8-29.85,81.8-38,125.18"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g id="_Mirror_Repeat_-3" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+      <g class="cls-3">
+        <path class="cls-2" d="M95.91,90.21c11.05,43.49-31.37,97.31-34.93,111.92-36.36,119.76,117.62,150.42,161.11,61.31"/>
+      </g>
+    </g>
+    <g id="_Mirror_Repeat_-4" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+      <g class="cls-8">
+        <path class="cls-2" d="M405.3,90.21c-11.05,43.49,31.37,97.31,34.93,111.92,36.36,119.76-117.62,150.42-161.11,61.31"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g id="_Mirror_Repeat_-5" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+      <g class="cls-6">
+        <circle class="cls-1" cx="126.68" cy="258.8" r="19.37"/>
+      </g>
+    </g>
+    <g id="_Mirror_Repeat_-6" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+      <g class="cls-9">
+        <circle class="cls-1" cx="375" cy="258.8" r="19.37"/>
+      </g>
+    </g>
+  </g>
+</svg>
