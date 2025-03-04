@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #cbe7f2;
+        stroke: #cbe7f2;
+        stroke-width: 5px;
+      }
+
+      .cls-4, .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-3 {
+        stroke: #26a2da;
+        stroke-width: 7px;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-5);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="337.4" y="21.85" width="50.73" height="466.08"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-2" x="113.08" y="21.85" width="50.73" height="466.08"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-2" x="272.41" y="45.36" width="104.03" height="136.07"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-2" x="123.34" y="45.36" width="104.03" height="136.07"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-2" x="319.63" y="133.33" width="25.67" height="25.67"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-2" x="155.19" y="133.33" width="25.67" height="25.67"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_3" data-name="Layer 3">
+    <path class="cls-4" d="M373.94,324.74c-82.91,30.59-164.23,29.25-244.16,0l-4.65,8.91c41.37,16.09,76.91,42.68,106.59,79.84,11.63,8.09,22.78,7.05,36.46-.35.03-.03,69.51-63.53,110.05-78.78l-4.29-9.62Z"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <g>
+      <g id="_Mirror_Repeat_" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+        <g class="cls-7">
+          <path class="cls-3" d="M340.9,175.72c.59,27.02,4.3,53.95,10.6,80.22,5.67,23.65,13.43,46.83,23.25,69.08,8.68,19.67,10.57,39.96,9.67,61.34-.9,21.28-4.21,42.39-8.03,63.32-1.39,7.59-4.89,34.55-4.6,34.75"/>
+          <path class="cls-3" d="M376.01,25.35c-9.47,17.27-17.07,35.55-22.69,54.43"/>
+        </g>
+      </g>
+      <g id="_Mirror_Repeat_-2" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+        <g class="cls-5">
+          <path class="cls-3" d="M160.3,175.72c-.59,27.02-4.3,53.95-10.6,80.22-5.67,23.65-13.43,46.83-23.25,69.08-8.68,19.67-10.57,39.96-9.67,61.34.9,21.28,4.21,42.39,8.03,63.32,1.39,7.59,4.89,34.55,4.6,34.75"/>
+          <path class="cls-3" d="M125.2,25.35c9.47,17.27,17.07,35.55,22.69,54.43"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <g id="_Mirror_Repeat_-3" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+        <g class="cls-1">
+          <path class="cls-3" d="M349.69,48.86c-9.98,36.36,29.23,55.96,22.46,89.11-9.7,47.46-68.03,54.66-96.24,10.69"/>
+        </g>
+      </g>
+      <g id="_Mirror_Repeat_-4" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+        <g class="cls-8">
+          <path class="cls-3" d="M150.09,48.86c9.98,36.36-29.23,55.96-22.46,89.11,9.7,47.46,68.03,54.66,96.24,10.69"/>
+        </g>
+      </g>
+    </g>
+    <path class="cls-3" d="M250.6,286.25c4.75,7.05,4.75,14.1,0,21.15"/>
+    <path class="cls-3" d="M234.21,415.99c5.47,4.27,10.74,6.5,15.79,6.65,5.35.15,10.47-2.04,15.34-6.65"/>
+    <path class="cls-3" d="M250.6,479.08c1.66-18.54,1.37-37.37-.6-56.44"/>
+    <g>
+      <g id="_Mirror_Repeat_-5" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+        <g class="cls-6">
+          <circle class="cls-4" cx="332.47" cy="146.17" r="10.34"/>
+        </g>
+      </g>
+      <g id="_Mirror_Repeat_-6" data-name="&amp;lt;Mirror Repeat&amp;gt;">
+        <g class="cls-9">
+          <circle class="cls-4" cx="168.03" cy="146.17" r="10.34"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
