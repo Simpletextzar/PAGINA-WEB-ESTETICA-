@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@netlify/identity": "^1.2.0"
+    "@netlify/identity": "^1.2.0",
+    "decap-cms-media-library-folders": "^1.0.0"
   }
 }
