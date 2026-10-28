@@ -6,80 +6,13 @@ media_folder: "img"
 public_folder: "/img"
 
 collections:
-  - name: "index"
-    label: "Inicio"
+  - name: "pages"
+    label: "Páginas"
     files:
-      - name: "index_images"
-        label: "Imágenes de inicio"
+      - name: "index"
+        label: "Inicio"
         file: "content/index.yml"
         fields:
           - label: "Imagen principal"
             name: "hero_image"
             widget: "image"
-            media_folder: "/img/index"
-            public_folder: "/img/index"
-
-  - name: "about"
-    label: "Nosotros"
-    files:
-      - name: "about_images"
-        label: "Imágenes de nosotros"
-        file: "content/about.yml"
-        fields:
-          - label: "Imagen principal"
-            name: "hero_image"
-            widget: "image"
-            media_folder: "/img/about"
-            public_folder: "/img/about"
-
-  - name: "procedures"
-    label: "Procedimientos"
-    files:
-      - name: "procedures_images"
-        label: "Imágenes de procedimientos"
-        file: "content/procedures.yml"
-        fields:
-          - label: "Imagen principal"
-            name: "hero_image"
-            widget: "image"
-            media_folder: "/img/procedures"
-            public_folder: "/img/procedures"
-
-  - name: "gallery"
-    label: "Galería"
-    files:
-      - name: "gallery_images"
-        label: "Imágenes de galería"
-        file: "content/gallery.yml"
-        fields:
-          - label: "Imagen de galería"
-            name: "gallery_image"
-            widget: "image"
-            media_folder: "/img/gallery"
-            public_folder: "/img/gallery"
-
-  - name: "locations"
-    label: "Ubicaciones"
-    files:
-      - name: "locations_images"
-        label: "Imágenes de ubicaciones"
-        file: "content/locations.yml"
-        fields:
-          - label: "Imagen de ubicación"
-            name: "location_image"
-            widget: "image"
-            media_folder: "/img/locations"
-            public_folder: "/img/locations"
-
-  - name: "personnel"
-    label: "Personal"
-    files:
-      - name: "personnel_images"
-        label: "Imágenes del personal"
-        file: "content/personnel.yml"
-        fields:
-          - label: "Foto del personal"
-            name: "personnel_image"
-            widget: "image"
-            media_folder: "/img/personnel"
-            public_folder: "/img/personnel"
