@@ -13,6 +13,20 @@ collections:
         label: "Inicio"
         file: "content/index.yml"
         fields:
-          - label: "Imagen principal"
-            name: "hero_image"
+          - label: "Título superior"
+            name: "hero_subtitle"
+            widget: "string"
+
+          - label: "Título principal"
+            name: "hero_title"
+            widget: "string"
+
+          - label: "Descripción principal"
+            name: "hero_description"
+            widget: "text"
+
+          - label: "Imagen de galería"
+            name: "gallery_image"
             widget: "image"
+            media_folder: "/img"
+            public_folder: "/img"
